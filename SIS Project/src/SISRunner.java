@@ -17,13 +17,15 @@ public class SISRunner
 				
 				if(choice==1) {
 					//need to decide if we want to put submenus in specific classes or methods or not
-					System.out.println("1");
+					
 				}
 				else if(choice==2) {
-					System.out.println("2");
+					//need to decide if we want to put submenus in specific classes or methods or not
+					
 				}
 				else if(choice == 3) {
-					System.out.println("3");
+					//need to decide if we want to put submenus in specific classes or methods or not
+					
 				}
 
 			}

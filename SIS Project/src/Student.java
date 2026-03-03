@@ -12,7 +12,7 @@ public class Student
 		private String class3; // dataSplit[6]
 		private String class3Grade; // dataSplit[7]
 
-		public void student (String firstName, String lastName, double GPA, String class1, String class1Grade, String class2, String class2Grade, String class3, String class3Grade)
+		public Student (String firstName, String lastName, double GPA, String class1, String class1Grade, String class2, String class2Grade, String class3, String class3Grade)
 		{
 			this.firstName = firstName;
 			this.lastName = lastName;

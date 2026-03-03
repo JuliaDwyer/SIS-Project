@@ -4,7 +4,7 @@ public class Student
 		
 		private String firstName; // dataSplit[0]
 		private String lastName; // dataSplit[1]
-		private int GPA; // This is to be added later because you need the data from the .txt for this calculation
+		private double GPA; // This is to be added later because you need the data from the .txt for this calculation
 		private String class1; // dataSplit[2]
 		private String class1Grade; // dataSplit[3]
 		private String class2; // dataSplit[4]
@@ -12,7 +12,7 @@ public class Student
 		private String class3; // dataSplit[6]
 		private String class3Grade; // dataSplit[7]
 
-		public void student (String firstName, String lastName, int GPA, String class1, String class1Grade, String class2, String class2Grade, String class3, String class3Grade)
+		public Student (String firstName, String lastName, double GPA, String class1, String class1Grade, String class2, String class2Grade, String class3, String class3Grade)
 		{
 			this.firstName = firstName;
 			this.lastName = lastName;
@@ -45,12 +45,12 @@ public class Student
 				this.lastName = lastName;
 			}
 
-		public int getGPA()
+		public double getGPA()
 			{
 				return GPA;
 			}
 
-		public void setGPA(int gPA)
+		public void setGPA(double gPA)
 			{
 				GPA = gPA;
 			}

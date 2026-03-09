@@ -278,7 +278,7 @@ public class readTextFile
 				}
 				
 				double gpa = (gpa1 + gpa2 + gpa3)/(3);
-				double roundedGPA = ""%.2f" gpa;
+				
 				
 				return gpa;
 			}
